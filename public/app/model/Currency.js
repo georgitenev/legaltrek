@@ -20,6 +20,6 @@ Ext.define('LegaltrekApp.model.Currency', {
 
     proxy: {
         type: 'rest',
-        url: '//localhost/legaltrek/private/currency'
+        url: './../private/currency'
     }
 });

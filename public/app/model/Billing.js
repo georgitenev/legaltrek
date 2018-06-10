@@ -32,6 +32,6 @@ Ext.define('LegaltrekApp.model.Billing', {
 
     proxy: {
         type: 'rest',
-        url: '//localhost/legaltrek/private/billing'
+        url: './../private/billing'
     }
 });
